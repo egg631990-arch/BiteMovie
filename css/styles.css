@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-img {
+  width: 150px;
+  margin-left: 3vw;
+  margin-top: 2vw;
+}
+
+.Main {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5vw;
+  padding-right: 5vw;
+  position: relative;
+  top: -20px;
+}
+
+/* Телефоны */
+@media (max-width: 767px) {
+  .Main {
+    font-size: 10px;
+    gap: 3vw;
+  }
+
+  .logo-img {
+    width: 70px;
+  }
+}
